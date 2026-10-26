@@ -1,0 +1,20 @@
+// Q7_B_b6
+// params {'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6, 'fwd_depth': 3, 'bwd_depth': 3}
+
+MATCH (a:Account {account_id: $account, role: 'person'}), (b:Account {account_id: $destination})
+OPTIONAL MATCH p = SHORTEST 1 (a)(()-[:TRANSFER]->(:Account {role: 'person'})){1,6}(b)
+RETURN length(p) AS length
+
+
+planner= runtime=SLOTTED total dbHits=20158  result_available_after=145 ms consumed_after=36 ms
++ProduceResults@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | length
+  +Projection@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | length((a)-[anon_7*]->(b)) AS length
+    +Apply@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | 
+      +CartesianProduct@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | 
+        +Filter@neo4j  rows=1  dbHits=1  pageCacheHits=0  time_ms=-  | a.role = $autostring_0
+          +NodeUniqueIndexSeek@neo4j  rows=1  dbHits=2  pageCacheHits=0  time_ms=-  | UNIQUE a:Account(account_id) WHERE account_id = $account
+        +NodeUniqueIndexSeek@neo4j  rows=1  dbHits=2  pageCacheHits=0  time_ms=-  | UNIQUE b:Account(account_id) WHERE account_id = $destination
+      +Optional@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | a, b
+        +ShortestPath@neo4j  rows=1  dbHits=20151  pageCacheHits=0  time_ms=-  | anon_13 = (a)-[anon_7:TRANSFER*..6]->(b) WHERE all(anon_12 IN relationships(anon_13) WHERE endNode(anon_12).role = $autostring_1) AND all(anon_12 IN relationships(anon_13) WHERE endNode(anon_12):Account)
+          +Filter@neo4j  rows=1  dbHits=2  pageCacheHits=0  time_ms=-  | b.role = $autostring_1 AND b:Account
+            +Argument@neo4j  rows=1  dbHits=0  pageCacheHits=0  time_ms=-  | a, b

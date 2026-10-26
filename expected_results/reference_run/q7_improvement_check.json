@@ -1,0 +1,126 @@
+{
+  "checked_at": "2026-10-19 09:41:48",
+  "all_ok": true,
+  "rows": [
+    {
+      "case": "Q7-A-b4",
+      "v1_length": 3,
+      "v1_ms": 389.7,
+      "v2_length": 3,
+      "v2_ms": 4.8,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-A-b6",
+      "v1_length": 3,
+      "v1_ms": 24824.0,
+      "v2_length": 3,
+      "v2_ms": 40.6,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-B-b4",
+      "v1_length": null,
+      "v1_ms": 248.8,
+      "v2_length": null,
+      "v2_ms": 4.5,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-B-b6",
+      "v1_length": 5,
+      "v1_ms": 22496.3,
+      "v2_length": 5,
+      "v2_ms": 41.6,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-C-b4",
+      "v1_length": null,
+      "v1_ms": 207.0,
+      "v2_length": null,
+      "v2_ms": 4.0,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-C-b6",
+      "v1_length": 5,
+      "v1_ms": 20153.2,
+      "v2_length": 5,
+      "v2_ms": 51.5,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-D-b4",
+      "v1_length": 3,
+      "v1_ms": 276.5,
+      "v2_length": 3,
+      "v2_ms": 5.8,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-D-b6",
+      "v1_length": 3,
+      "v1_ms": 25037.3,
+      "v2_length": 3,
+      "v2_ms": 57.4,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-E-b4",
+      "v1_length": null,
+      "v1_ms": 280.7,
+      "v2_length": null,
+      "v2_ms": 5.0,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-E-b6",
+      "v1_length": 5,
+      "v1_ms": 25954.9,
+      "v2_length": 5,
+      "v2_ms": 38.9,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-F-b4",
+      "v1_length": null,
+      "v1_ms": 397.5,
+      "v2_length": null,
+      "v2_ms": 4.7,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-F-b6",
+      "v1_length": 5,
+      "v1_ms": 26496.2,
+      "v2_length": 5,
+      "v2_ms": 75.6,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    }
+  ]
+}

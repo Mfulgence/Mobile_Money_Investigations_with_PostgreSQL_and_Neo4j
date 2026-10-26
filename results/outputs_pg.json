@@ -1,0 +1,1968 @@
+{
+  "run_at_cat": "2026-10-26 14:48:18",
+  "cases": {
+    "Q1-A": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          1,
+          200000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.524
+    },
+    "Q1-B": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [
+        [
+          1,
+          1050000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.003
+    },
+    "Q1-C": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          1,
+          300000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.003
+    },
+    "Q1-D": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          1,
+          45000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.002
+    },
+    "Q1-E": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [
+        [
+          1,
+          40000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.002
+    },
+    "Q1-F": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          1,
+          30000
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.002
+    },
+    "Q2-month": {
+      "params": {
+        "start": 1788213600,
+        "end": 1790805600
+      },
+      "rows": [
+        [
+          "2026-09-01",
+          666667,
+          7683326000
+        ],
+        [
+          "2026-09-02",
+          666667,
+          7678846900
+        ],
+        [
+          "2026-09-03",
+          666666,
+          7665877900
+        ],
+        [
+          "2026-09-04",
+          666667,
+          7665199000
+        ],
+        [
+          "2026-09-05",
+          666667,
+          7679091900
+        ],
+        [
+          "2026-09-06",
+          666816,
+          7741994180
+        ],
+        [
+          "2026-09-07",
+          666817,
+          7726576180
+        ],
+        [
+          "2026-09-08",
+          666907,
+          7777047990
+        ],
+        [
+          "2026-09-09",
+          666906,
+          7783400210
+        ],
+        [
+          "2026-09-10",
+          666997,
+          7807170170
+        ],
+        [
+          "2026-09-11",
+          666847,
+          7746125100
+        ],
+        [
+          "2026-09-12",
+          666936,
+          7783593400
+        ],
+        [
+          "2026-09-13",
+          666937,
+          7800995510
+        ],
+        [
+          "2026-09-14",
+          666997,
+          7856644775
+        ],
+        [
+          "2026-09-15",
+          666996,
+          7859428355
+        ],
+        [
+          "2026-09-16",
+          666787,
+          7683087200
+        ],
+        [
+          "2026-09-17",
+          666757,
+          7699710100
+        ],
+        [
+          "2026-09-18",
+          666786,
+          7677843700
+        ],
+        [
+          "2026-09-19",
+          666757,
+          7665841400
+        ],
+        [
+          "2026-09-20",
+          666757,
+          7663404900
+        ],
+        [
+          "2026-09-21",
+          666726,
+          7696315800
+        ],
+        [
+          "2026-09-22",
+          666727,
+          7703220100
+        ],
+        [
+          "2026-09-23",
+          666697,
+          7697325900
+        ],
+        [
+          "2026-09-24",
+          666726,
+          7668636000
+        ],
+        [
+          "2026-09-25",
+          666697,
+          7677231000
+        ],
+        [
+          "2026-09-26",
+          666697,
+          7671715700
+        ],
+        [
+          "2026-09-27",
+          666696,
+          7692655900
+        ],
+        [
+          "2026-09-28",
+          666667,
+          7676184700
+        ],
+        [
+          "2026-09-29",
+          666667,
+          7668892500
+        ],
+        [
+          "2026-09-30",
+          666666,
+          7684945400
+        ]
+      ],
+      "status": "ok",
+      "seconds": 6.474
+    },
+    "Q3-A": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          8917,
+          228001,
+          "handset",
+          0,
+          29
+        ],
+        [
+          16836,
+          228001,
+          "handset",
+          0,
+          29
+        ],
+        [
+          24755,
+          228001,
+          "handset",
+          0,
+          29
+        ],
+        [
+          220998,
+          998,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.01
+    },
+    "Q3-B": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [
+        [
+          147226,
+          147226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          147227,
+          147226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          147229,
+          147226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          147230,
+          147226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          155147,
+          228018,
+          "handset",
+          0,
+          29
+        ],
+        [
+          163066,
+          228018,
+          "handset",
+          0,
+          29
+        ],
+        [
+          170985,
+          228018,
+          "handset",
+          0,
+          29
+        ],
+        [
+          178904,
+          228018,
+          "handset",
+          0,
+          29
+        ],
+        [
+          186823,
+          228018,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.006
+    },
+    "Q3-C": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          6573,
+          228043,
+          "handset",
+          0,
+          29
+        ],
+        [
+          206976,
+          206976,
+          "handset",
+          11,
+          29
+        ],
+        [
+          206977,
+          206976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          206979,
+          206976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          206980,
+          206976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          214897,
+          228043,
+          "handset",
+          0,
+          29
+        ],
+        [
+          222816,
+          228043,
+          "handset",
+          0,
+          29
+        ],
+        [
+          230735,
+          228043,
+          "handset",
+          0,
+          29
+        ],
+        [
+          238654,
+          228043,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.004
+    },
+    "Q3-D": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          5917,
+          228301,
+          "handset",
+          0,
+          29
+        ],
+        [
+          13836,
+          228301,
+          "handset",
+          0,
+          29
+        ],
+        [
+          17998,
+          17998,
+          "handset",
+          0,
+          29
+        ],
+        [
+          21755,
+          228301,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.004
+    },
+    "Q3-E": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [
+        [
+          144226,
+          144226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          144227,
+          144226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          144229,
+          144226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          144230,
+          144226,
+          "handset",
+          0,
+          29
+        ],
+        [
+          152147,
+          228318,
+          "handset",
+          0,
+          29
+        ],
+        [
+          160066,
+          228318,
+          "handset",
+          0,
+          29
+        ],
+        [
+          167985,
+          228318,
+          "handset",
+          0,
+          29
+        ],
+        [
+          175904,
+          228318,
+          "handset",
+          0,
+          29
+        ],
+        [
+          183823,
+          228318,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.003
+    },
+    "Q3-F": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          3573,
+          228343,
+          "handset",
+          0,
+          29
+        ],
+        [
+          203976,
+          203976,
+          "handset",
+          11,
+          29
+        ],
+        [
+          203977,
+          203976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          203979,
+          203976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          203980,
+          203976,
+          "handset",
+          0,
+          29
+        ],
+        [
+          211897,
+          228343,
+          "handset",
+          0,
+          29
+        ],
+        [
+          219816,
+          228343,
+          "handset",
+          0,
+          29
+        ],
+        [
+          227735,
+          228343,
+          "handset",
+          0,
+          29
+        ],
+        [
+          235654,
+          228343,
+          "handset",
+          0,
+          29
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.003
+    },
+    "Q5-A": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          20000001,
+          20000002,
+          20000003,
+          24755
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.011
+    },
+    "Q5-B": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [
+        [
+          20000092,
+          20000093,
+          20000094,
+          170985
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.005
+    },
+    "Q5-C": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          20000229,
+          20000230,
+          20000231,
+          230735
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.005
+    },
+    "Q5-D": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.005
+    },
+    "Q5-E": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.004
+    },
+    "Q5-F": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.005
+    },
+    "Q6-A": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [
+        [
+          [
+            20000001,
+            20000002,
+            20000003,
+            20000004
+          ],
+          4
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.008
+    },
+    "Q6-B": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.005
+    },
+    "Q6-C": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [
+        [
+          [
+            20000229,
+            20000230,
+            20000231,
+            20000232,
+            20000233,
+            20000234
+          ],
+          6
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.006
+    },
+    "Q6-D": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.002
+    },
+    "Q6-E": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.002
+    },
+    "Q6-F": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100
+      },
+      "rows": [],
+      "status": "ok",
+      "seconds": 0.003
+    },
+    "Q7-A-b4": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          3
+        ]
+      ],
+      "status": "ok",
+      "seconds": 3.801
+    },
+    "Q7-A-b6": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          3
+        ]
+      ],
+      "status": "ok",
+      "seconds": 151.408
+    },
+    "Q7-B-b4": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          null
+        ]
+      ],
+      "status": "ok",
+      "seconds": 1.062
+    },
+    "Q7-B-b6": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          5
+        ]
+      ],
+      "status": "ok",
+      "seconds": 69.319
+    },
+    "Q7-C-b4": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          null
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.692
+    },
+    "Q7-C-b6": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          5
+        ]
+      ],
+      "status": "ok",
+      "seconds": 59.431
+    },
+    "Q7-D-b4": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          3
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.851
+    },
+    "Q7-D-b6": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          3
+        ]
+      ],
+      "status": "ok",
+      "seconds": 69.361
+    },
+    "Q7-E-b4": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          null
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.837
+    },
+    "Q7-E-b6": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          5
+        ]
+      ],
+      "status": "ok",
+      "seconds": 67.84
+    },
+    "Q7-F-b4": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "bound": 4,
+        "fwd_depth": 2,
+        "bwd_depth": 2
+      },
+      "rows": [
+        [
+          null
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.92
+    },
+    "Q7-F-b6": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "bound": 6,
+        "fwd_depth": 3,
+        "bwd_depth": 3
+      },
+      "rows": [
+        [
+          5
+        ]
+      ],
+      "status": "ok",
+      "seconds": 70.022
+    },
+    "Q4-A-d4": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Kigali",
+          3
+        ],
+        [
+          "Northern",
+          7
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.038
+    },
+    "Q4-A-d6": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          6
+        ],
+        [
+          "Kigali",
+          9
+        ],
+        [
+          "Northern",
+          13
+        ],
+        [
+          "Southern",
+          9
+        ],
+        [
+          "Western",
+          6
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.041
+    },
+    "Q4-B-d4": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Eastern",
+          13
+        ],
+        [
+          "Kigali",
+          6
+        ],
+        [
+          "Northern",
+          7
+        ],
+        [
+          "Southern",
+          9
+        ],
+        [
+          "Western",
+          11
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.022
+    },
+    "Q4-B-d6": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          37
+        ],
+        [
+          "Kigali",
+          30
+        ],
+        [
+          "Northern",
+          35
+        ],
+        [
+          "Southern",
+          45
+        ],
+        [
+          "Western",
+          31
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.077
+    },
+    "Q4-C-d4": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Eastern",
+          23
+        ],
+        [
+          "Kigali",
+          24
+        ],
+        [
+          "Northern",
+          29
+        ],
+        [
+          "Southern",
+          43
+        ],
+        [
+          "Western",
+          27
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.047
+    },
+    "Q4-C-d6": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          82
+        ],
+        [
+          "Kigali",
+          90
+        ],
+        [
+          "Northern",
+          97
+        ],
+        [
+          "Southern",
+          121
+        ],
+        [
+          "Western",
+          93
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.103
+    },
+    "Q4-D-d4": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Eastern",
+          2
+        ],
+        [
+          "Northern",
+          1
+        ],
+        [
+          "Western",
+          7
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.008
+    },
+    "Q4-D-d6": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          8
+        ],
+        [
+          "Kigali",
+          10
+        ],
+        [
+          "Northern",
+          7
+        ],
+        [
+          "Southern",
+          6
+        ],
+        [
+          "Western",
+          13
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.01
+    },
+    "Q4-E-d4": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Eastern",
+          6
+        ],
+        [
+          "Kigali",
+          10
+        ],
+        [
+          "Northern",
+          13
+        ],
+        [
+          "Southern",
+          11
+        ],
+        [
+          "Western",
+          7
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.008
+    },
+    "Q4-E-d6": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          30
+        ],
+        [
+          "Kigali",
+          50
+        ],
+        [
+          "Northern",
+          37
+        ],
+        [
+          "Southern",
+          31
+        ],
+        [
+          "Western",
+          35
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.028
+    },
+    "Q4-F-d4": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 4
+      },
+      "rows": [
+        [
+          "Eastern",
+          25
+        ],
+        [
+          "Kigali",
+          44
+        ],
+        [
+          "Northern",
+          29
+        ],
+        [
+          "Southern",
+          27
+        ],
+        [
+          "Western",
+          22
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.014
+    },
+    "Q4-F-d6": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 6
+      },
+      "rows": [
+        [
+          "Eastern",
+          93
+        ],
+        [
+          "Kigali",
+          125
+        ],
+        [
+          "Northern",
+          92
+        ],
+        [
+          "Southern",
+          96
+        ],
+        [
+          "Western",
+          82
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.038
+    },
+    "Q4-A-d8": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          30
+        ],
+        [
+          "Kigali",
+          33
+        ],
+        [
+          "Northern",
+          37
+        ],
+        [
+          "Southern",
+          45
+        ],
+        [
+          "Western",
+          30
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.017
+    },
+    "Q4-A-d10": {
+      "params": {
+        "account": 998,
+        "destination": 24755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          36
+        ],
+        [
+          "Kigali",
+          35
+        ],
+        [
+          "Northern",
+          37
+        ],
+        [
+          "Southern",
+          45
+        ],
+        [
+          "Western",
+          34
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.014
+    },
+    "Q4-B-d8": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          40
+        ],
+        [
+          "Kigali",
+          33
+        ],
+        [
+          "Northern",
+          35
+        ],
+        [
+          "Southern",
+          47
+        ],
+        [
+          "Western",
+          33
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.015
+    },
+    "Q4-B-d10": {
+      "params": {
+        "account": 147228,
+        "destination": 186823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          45
+        ],
+        [
+          "Kigali",
+          41
+        ],
+        [
+          "Northern",
+          46
+        ],
+        [
+          "Southern",
+          57
+        ],
+        [
+          "Western",
+          39
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.026
+    },
+    "Q4-C-d8": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          151
+        ],
+        [
+          "Kigali",
+          172
+        ],
+        [
+          "Northern",
+          167
+        ],
+        [
+          "Southern",
+          186
+        ],
+        [
+          "Western",
+          156
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.046
+    },
+    "Q4-C-d10": {
+      "params": {
+        "account": 206978,
+        "destination": 6573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          278
+        ],
+        [
+          "Kigali",
+          293
+        ],
+        [
+          "Northern",
+          295
+        ],
+        [
+          "Southern",
+          294
+        ],
+        [
+          "Western",
+          273
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.13
+    },
+    "Q4-D-d8": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          32
+        ],
+        [
+          "Kigali",
+          50
+        ],
+        [
+          "Northern",
+          31
+        ],
+        [
+          "Southern",
+          30
+        ],
+        [
+          "Western",
+          37
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.014
+    },
+    "Q4-D-d10": {
+      "params": {
+        "account": 237998,
+        "destination": 21755,
+        "start": 1788680700,
+        "end": 1788684300,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          34
+        ],
+        [
+          "Kigali",
+          50
+        ],
+        [
+          "Northern",
+          37
+        ],
+        [
+          "Southern",
+          34
+        ],
+        [
+          "Western",
+          37
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.013
+    },
+    "Q4-E-d8": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          33
+        ],
+        [
+          "Kigali",
+          52
+        ],
+        [
+          "Northern",
+          40
+        ],
+        [
+          "Southern",
+          33
+        ],
+        [
+          "Western",
+          35
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.013
+    },
+    "Q4-E-d10": {
+      "params": {
+        "account": 144228,
+        "destination": 183823,
+        "start": 1789285500,
+        "end": 1789289100,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          40
+        ],
+        [
+          "Kigali",
+          62
+        ],
+        [
+          "Northern",
+          45
+        ],
+        [
+          "Southern",
+          39
+        ],
+        [
+          "Western",
+          44
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.024
+    },
+    "Q4-F-d8": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 8
+      },
+      "rows": [
+        [
+          "Eastern",
+          161
+        ],
+        [
+          "Kigali",
+          190
+        ],
+        [
+          "Northern",
+          164
+        ],
+        [
+          "Southern",
+          174
+        ],
+        [
+          "Western",
+          148
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.039
+    },
+    "Q4-F-d10": {
+      "params": {
+        "account": 203978,
+        "destination": 3573,
+        "start": 1788853500,
+        "end": 1788857100,
+        "depth": 10
+      },
+      "rows": [
+        [
+          "Eastern",
+          278
+        ],
+        [
+          "Kigali",
+          302
+        ],
+        [
+          "Northern",
+          295
+        ],
+        [
+          "Southern",
+          288
+        ],
+        [
+          "Western",
+          263
+        ]
+      ],
+      "status": "ok",
+      "seconds": 0.09
+    }
+  },
+  "q4_prediction": {
+    "A": {
+      "d8": 185,
+      "d10": 795
+    },
+    "B": {
+      "d8": 689,
+      "d10": 2665
+    },
+    "C": {
+      "d8": 1598,
+      "d10": 5286
+    },
+    "D": {
+      "d8": 194,
+      "d10": 852
+    },
+    "E": {
+      "d8": 713,
+      "d10": 2774
+    },
+    "F": {
+      "d8": 1620,
+      "d10": 5378
+    }
+  },
+  "q7_paths": {
+    "Q7-A-b4": {
+      "accounts": [
+        998,
+        8917,
+        16836,
+        24755
+      ],
+      "transfer_ids": [
+        20000001,
+        20000002,
+        20000003
+      ],
+      "length": 3,
+      "valid": true
+    },
+    "Q7-A-b6": {
+      "accounts": [
+        998,
+        8917,
+        16836,
+        24755
+      ],
+      "transfer_ids": [
+        20000001,
+        20000002,
+        20000003
+      ],
+      "length": 3,
+      "valid": true
+    },
+    "Q7-B-b6": {
+      "accounts": [
+        147228,
+        147793,
+        147197,
+        148101,
+        178904,
+        186823
+      ],
+      "transfer_ids": [
+        4666377,
+        5984599,
+        6176316,
+        8125262,
+        20000096
+      ],
+      "length": 5,
+      "valid": true
+    },
+    "Q7-C-b6": {
+      "accounts": [
+        206978,
+        214897,
+        222816,
+        230735,
+        238654,
+        6573
+      ],
+      "transfer_ids": [
+        20000229,
+        20000230,
+        20000231,
+        20000232,
+        20000233
+      ],
+      "length": 5,
+      "valid": true
+    },
+    "Q7-D-b4": {
+      "accounts": [
+        237998,
+        5917,
+        13836,
+        21755
+      ],
+      "transfer_ids": [
+        20001651,
+        20001652,
+        20001653
+      ],
+      "length": 3,
+      "valid": true
+    },
+    "Q7-D-b6": {
+      "accounts": [
+        237998,
+        5917,
+        13836,
+        21755
+      ],
+      "transfer_ids": [
+        20001651,
+        20001652,
+        20001653
+      ],
+      "length": 3,
+      "valid": true
+    },
+    "Q7-E-b6": {
+      "accounts": [
+        144228,
+        152147,
+        160066,
+        167985,
+        175904,
+        183823
+      ],
+      "transfer_ids": [
+        20001742,
+        20001743,
+        20001744,
+        20001745,
+        20001746
+      ],
+      "length": 5,
+      "valid": true
+    },
+    "Q7-F-b6": {
+      "accounts": [
+        203978,
+        211897,
+        219816,
+        227735,
+        235654,
+        3573
+      ],
+      "transfer_ids": [
+        20001879,
+        20001880,
+        20001881,
+        20001882,
+        20001883
+      ],
+      "length": 5,
+      "valid": true
+    }
+  }
+}

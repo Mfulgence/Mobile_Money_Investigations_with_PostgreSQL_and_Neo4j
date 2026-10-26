@@ -1,0 +1,15 @@
+-- Section 2.2 step 1  Bulk load in dependency order. Run from the project folder:
+--   psql -U postgres -d mobile_money -v csvdir="C:/path/to/mobile_money_project/data" -f sql/02_load.psql
+-- \timing prints the seconds for each \copy; the totals go into the report as "load seconds".
+\timing on
+\cd :csvdir
+\echo '--- loading customers'
+\copy customers       FROM 'customers.csv'       CSV HEADER
+\echo '--- loading devices'
+\copy devices         FROM 'devices.csv'         CSV HEADER
+\echo '--- loading accounts'
+\copy accounts        FROM 'accounts.csv'        CSV HEADER
+\echo '--- loading account_devices'
+\copy account_devices FROM 'account_devices.csv' CSV HEADER
+\echo '--- loading transfers (20,003,300 rows, a few minutes)'
+\copy transfers       FROM 'transfers.csv'       CSV HEADER

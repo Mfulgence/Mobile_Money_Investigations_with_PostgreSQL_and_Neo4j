@@ -1,0 +1,9 @@
+# keep data and database stores local
+data/
+neo4j_import/
+*.csv.gz
+config_local.py
+__pycache__/
+.venv/
+import.report
+# raw CSV results ARE submitted (results/*.csv), only source data is excluded

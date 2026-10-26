@@ -1,0 +1,86 @@
+{
+  "recorded_at_cat": "2026-10-26 13:00:21",
+  "machine": {
+    "os": "Windows-11-10.0.26300-SP0",
+    "machine": "AMD64",
+    "cpu": "Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz",
+    "logical_cpus": 8,
+    "python": "3.12.6",
+    "ram_gb": 17.01,
+    "physical_cores": 4,
+    "numpy_version": "2.5.4",
+    "psycopg_version": "3.3.6",
+    "neo4j_version": "6.4.1",
+    "matplotlib_version": "3.11.2",
+    "pandas_version": "3.1.0"
+  },
+  "postgresql": {
+    "version": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit",
+    "database": [
+      "mobile_money",
+      "postgres"
+    ],
+    "connected_at": "2026-10-26 13:00:26.533839+02:00",
+    "settings": {
+      "shared_buffers": "4GB",
+      "effective_cache_size": "8GB",
+      "work_mem": "64MB",
+      "maintenance_work_mem": "1GB",
+      "max_wal_size": "8GB",
+      "max_parallel_workers_per_gather": "4",
+      "jit": "off",
+      "TimeZone": "Africa/Kigali",
+      "statement_timeout": "3min"
+    },
+    "db_timezone_setting": [
+      [
+        [
+          "TimeZone=Africa/Kigali"
+        ]
+      ]
+    ]
+  },
+  "neo4j": {
+    "components": [
+      [
+        "Neo4j Kernel",
+        [
+          "2026.10.1"
+        ],
+        "community"
+      ],
+      [
+        "Cypher",
+        [
+          "5",
+          "25"
+        ],
+        ""
+      ]
+    ],
+    "databases": [
+      [
+        "neo4j",
+        "online",
+        true
+      ],
+      [
+        "system",
+        "online",
+        false
+      ]
+    ],
+    "memory_settings": {
+      "db.transaction.timeout": "0s",
+      "server.memory.heap.initial_size": "4.00GiB",
+      "server.memory.heap.max_size": "4.00GiB",
+      "server.memory.pagecache.async": "false",
+      "server.memory.pagecache.directio": "false",
+      "server.memory.pagecache.flush.buffer.enabled": "false",
+      "server.memory.pagecache.flush.buffer.size_in_pages": "128",
+      "server.memory.pagecache.scan.prefetchers": "4",
+      "server.memory.pagecache.size": "4.00GiB",
+      "server.memory.query_cache.per_db_cache_num_entries": "1000"
+    }
+  }
+}

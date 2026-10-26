@@ -1,0 +1,641 @@
+{
+  "table": [
+    {
+      "case": "Q1-B",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 9.69,
+      "min_ms": 8.5,
+      "max_ms": 11.87
+    },
+    {
+      "case": "Q1-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.64,
+      "min_ms": 0.56,
+      "max_ms": 0.79
+    },
+    {
+      "case": "Q1-E",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 9.35,
+      "min_ms": 8.07,
+      "max_ms": 10.24
+    },
+    {
+      "case": "Q1-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.44,
+      "min_ms": 0.4,
+      "max_ms": 0.74
+    },
+    {
+      "case": "Q2-month",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 0,
+      "failed": 5,
+      "median_ms": null,
+      "min_ms": null,
+      "max_ms": null
+    },
+    {
+      "case": "Q2-month",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 7295.15,
+      "min_ms": 7055.15,
+      "max_ms": 7341.42
+    },
+    {
+      "case": "Q3-B",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 10.45,
+      "min_ms": 9.11,
+      "max_ms": 11.2
+    },
+    {
+      "case": "Q3-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 2.16,
+      "min_ms": 1.83,
+      "max_ms": 2.37
+    },
+    {
+      "case": "Q3-E",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 9.47,
+      "min_ms": 8.64,
+      "max_ms": 9.6
+    },
+    {
+      "case": "Q3-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.02,
+      "min_ms": 0.99,
+      "max_ms": 1.14
+    },
+    {
+      "case": "Q4-B-d10",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 11.94,
+      "min_ms": 10.37,
+      "max_ms": 12.81
+    },
+    {
+      "case": "Q4-B-d10",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 22.13,
+      "min_ms": 19.82,
+      "max_ms": 29.24
+    },
+    {
+      "case": "Q4-B-d4",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 10.74,
+      "min_ms": 9.14,
+      "max_ms": 11.0
+    },
+    {
+      "case": "Q4-B-d4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 4.64,
+      "min_ms": 3.79,
+      "max_ms": 4.93
+    },
+    {
+      "case": "Q4-B-d6",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 12.25,
+      "min_ms": 10.38,
+      "max_ms": 13.98
+    },
+    {
+      "case": "Q4-B-d6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 5.95,
+      "min_ms": 5.41,
+      "max_ms": 6.17
+    },
+    {
+      "case": "Q4-B-d8",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 15.24,
+      "min_ms": 13.6,
+      "max_ms": 15.74
+    },
+    {
+      "case": "Q4-B-d8",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 14.4,
+      "min_ms": 13.43,
+      "max_ms": 15.2
+    },
+    {
+      "case": "Q4-E-d10",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 10.71,
+      "min_ms": 9.43,
+      "max_ms": 11.59
+    },
+    {
+      "case": "Q4-E-d10",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 20.42,
+      "min_ms": 20.14,
+      "max_ms": 21.98
+    },
+    {
+      "case": "Q4-E-d4",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 8.07,
+      "min_ms": 7.3,
+      "max_ms": 8.28
+    },
+    {
+      "case": "Q4-E-d4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.96,
+      "min_ms": 1.77,
+      "max_ms": 2.44
+    },
+    {
+      "case": "Q4-E-d6",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 10.11,
+      "min_ms": 9.75,
+      "max_ms": 10.98
+    },
+    {
+      "case": "Q4-E-d6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 5.55,
+      "min_ms": 5.37,
+      "max_ms": 6.67
+    },
+    {
+      "case": "Q4-E-d8",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 9.94,
+      "min_ms": 7.75,
+      "max_ms": 10.34
+    },
+    {
+      "case": "Q4-E-d8",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 11.79,
+      "min_ms": 9.94,
+      "max_ms": 16.1
+    },
+    {
+      "case": "Q5-B",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 7.93,
+      "min_ms": 7.39,
+      "max_ms": 8.49
+    },
+    {
+      "case": "Q5-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 2.44,
+      "min_ms": 1.71,
+      "max_ms": 2.59
+    },
+    {
+      "case": "Q5-E",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 6.66,
+      "min_ms": 6.46,
+      "max_ms": 7.2
+    },
+    {
+      "case": "Q5-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.7,
+      "min_ms": 0.6,
+      "max_ms": 0.87
+    },
+    {
+      "case": "Q6-B",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 18.3,
+      "min_ms": 16.64,
+      "max_ms": 18.54
+    },
+    {
+      "case": "Q6-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.49,
+      "min_ms": 1.25,
+      "max_ms": 1.68
+    },
+    {
+      "case": "Q6-E",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 7.82,
+      "min_ms": 7.0,
+      "max_ms": 8.04
+    },
+    {
+      "case": "Q6-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.67,
+      "min_ms": 0.62,
+      "max_ms": 0.77
+    },
+    {
+      "case": "Q7-B-b4",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 23.41,
+      "min_ms": 21.34,
+      "max_ms": 28.13
+    },
+    {
+      "case": "Q7-B-b4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 832.63,
+      "min_ms": 810.4,
+      "max_ms": 839.73
+    },
+    {
+      "case": "Q7-B-b4",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 13.4,
+      "min_ms": 12.09,
+      "max_ms": 15.14
+    },
+    {
+      "case": "Q7-B-b6",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 27.06,
+      "min_ms": 25.48,
+      "max_ms": 28.66
+    },
+    {
+      "case": "Q7-B-b6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 0,
+      "failed": 5,
+      "median_ms": null,
+      "min_ms": null,
+      "max_ms": null
+    },
+    {
+      "case": "Q7-B-b6",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 128.05,
+      "min_ms": 125.48,
+      "max_ms": 138.79
+    },
+    {
+      "case": "Q7-E-b4",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 21.27,
+      "min_ms": 20.71,
+      "max_ms": 26.29
+    },
+    {
+      "case": "Q7-E-b4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 788.8,
+      "min_ms": 787.3,
+      "max_ms": 801.47
+    },
+    {
+      "case": "Q7-E-b4",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 12.07,
+      "min_ms": 11.53,
+      "max_ms": 12.66
+    },
+    {
+      "case": "Q7-E-b6",
+      "engine": "neo",
+      "variant": "cypher",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 35.59,
+      "min_ms": 33.1,
+      "max_ms": 36.51
+    },
+    {
+      "case": "Q7-E-b6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 0,
+      "failed": 5,
+      "median_ms": null,
+      "min_ms": null,
+      "max_ms": null
+    },
+    {
+      "case": "Q7-E-b6",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 125.74,
+      "min_ms": 124.41,
+      "max_ms": 133.09
+    }
+  ],
+  "ratios": [
+    {
+      "case": "Q1-B",
+      "sql_variant": "v1",
+      "pg_median_ms": 0.64,
+      "neo_median_ms": 9.69,
+      "ratio": 0.066
+    },
+    {
+      "case": "Q1-E",
+      "sql_variant": "v1",
+      "pg_median_ms": 0.44,
+      "neo_median_ms": 9.35,
+      "ratio": 0.047
+    },
+    {
+      "case": "Q2-month",
+      "sql_variant": "v1",
+      "pg_median_ms": 7295.15,
+      "neo_median_ms": null,
+      "ratio": null
+    },
+    {
+      "case": "Q3-B",
+      "sql_variant": "v1",
+      "pg_median_ms": 2.16,
+      "neo_median_ms": 10.45,
+      "ratio": 0.207
+    },
+    {
+      "case": "Q3-E",
+      "sql_variant": "v1",
+      "pg_median_ms": 1.02,
+      "neo_median_ms": 9.47,
+      "ratio": 0.108
+    },
+    {
+      "case": "Q4-B-d10",
+      "sql_variant": "v1",
+      "pg_median_ms": 22.13,
+      "neo_median_ms": 11.94,
+      "ratio": 1.853
+    },
+    {
+      "case": "Q4-B-d4",
+      "sql_variant": "v1",
+      "pg_median_ms": 4.64,
+      "neo_median_ms": 10.74,
+      "ratio": 0.432
+    },
+    {
+      "case": "Q4-B-d6",
+      "sql_variant": "v1",
+      "pg_median_ms": 5.95,
+      "neo_median_ms": 12.25,
+      "ratio": 0.486
+    },
+    {
+      "case": "Q4-B-d8",
+      "sql_variant": "v1",
+      "pg_median_ms": 14.4,
+      "neo_median_ms": 15.24,
+      "ratio": 0.945
+    },
+    {
+      "case": "Q4-E-d10",
+      "sql_variant": "v1",
+      "pg_median_ms": 20.42,
+      "neo_median_ms": 10.71,
+      "ratio": 1.907
+    },
+    {
+      "case": "Q4-E-d4",
+      "sql_variant": "v1",
+      "pg_median_ms": 1.96,
+      "neo_median_ms": 8.07,
+      "ratio": 0.243
+    },
+    {
+      "case": "Q4-E-d6",
+      "sql_variant": "v1",
+      "pg_median_ms": 5.55,
+      "neo_median_ms": 10.11,
+      "ratio": 0.549
+    },
+    {
+      "case": "Q4-E-d8",
+      "sql_variant": "v1",
+      "pg_median_ms": 11.79,
+      "neo_median_ms": 9.94,
+      "ratio": 1.186
+    },
+    {
+      "case": "Q5-B",
+      "sql_variant": "v1",
+      "pg_median_ms": 2.44,
+      "neo_median_ms": 7.93,
+      "ratio": 0.308
+    },
+    {
+      "case": "Q5-E",
+      "sql_variant": "v1",
+      "pg_median_ms": 0.7,
+      "neo_median_ms": 6.66,
+      "ratio": 0.105
+    },
+    {
+      "case": "Q6-B",
+      "sql_variant": "v1",
+      "pg_median_ms": 1.49,
+      "neo_median_ms": 18.3,
+      "ratio": 0.081
+    },
+    {
+      "case": "Q6-E",
+      "sql_variant": "v1",
+      "pg_median_ms": 0.67,
+      "neo_median_ms": 7.82,
+      "ratio": 0.086
+    },
+    {
+      "case": "Q7-B-b4",
+      "sql_variant": "v1",
+      "pg_median_ms": 832.63,
+      "neo_median_ms": 23.41,
+      "ratio": 35.567
+    },
+    {
+      "case": "Q7-B-b4",
+      "sql_variant": "v2",
+      "pg_median_ms": 13.4,
+      "neo_median_ms": 23.41,
+      "ratio": 0.572
+    },
+    {
+      "case": "Q7-B-b6",
+      "sql_variant": "v1",
+      "pg_median_ms": null,
+      "neo_median_ms": 27.06,
+      "ratio": null
+    },
+    {
+      "case": "Q7-B-b6",
+      "sql_variant": "v2",
+      "pg_median_ms": 128.05,
+      "neo_median_ms": 27.06,
+      "ratio": 4.732
+    },
+    {
+      "case": "Q7-E-b4",
+      "sql_variant": "v1",
+      "pg_median_ms": 788.8,
+      "neo_median_ms": 21.27,
+      "ratio": 37.085
+    },
+    {
+      "case": "Q7-E-b4",
+      "sql_variant": "v2",
+      "pg_median_ms": 12.07,
+      "neo_median_ms": 21.27,
+      "ratio": 0.567
+    },
+    {
+      "case": "Q7-E-b6",
+      "sql_variant": "v1",
+      "pg_median_ms": null,
+      "neo_median_ms": 35.59,
+      "ratio": null
+    },
+    {
+      "case": "Q7-E-b6",
+      "sql_variant": "v2",
+      "pg_median_ms": 125.74,
+      "neo_median_ms": 35.59,
+      "ratio": 3.533
+    }
+  ]
+}

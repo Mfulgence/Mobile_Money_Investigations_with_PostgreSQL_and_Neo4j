@@ -1,0 +1,126 @@
+{
+  "checked_at": "2026-10-26 15:54:09",
+  "all_ok": true,
+  "rows": [
+    {
+      "case": "Q7-A-b4",
+      "v1_length": 3,
+      "v1_ms": 1015.3,
+      "v2_length": 3,
+      "v2_ms": 6.8,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-A-b6",
+      "v1_length": 3,
+      "v1_ms": 69995.3,
+      "v2_length": 3,
+      "v2_ms": 307.5,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-B-b4",
+      "v1_length": null,
+      "v1_ms": 750.5,
+      "v2_length": null,
+      "v2_ms": 15.2,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-B-b6",
+      "v1_length": 5,
+      "v1_ms": 63675.6,
+      "v2_length": 5,
+      "v2_ms": 214.3,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-C-b4",
+      "v1_length": null,
+      "v1_ms": 670.8,
+      "v2_length": null,
+      "v2_ms": 14.6,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-C-b6",
+      "v1_length": 5,
+      "v1_ms": 57880.8,
+      "v2_length": 5,
+      "v2_ms": 127.8,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-D-b4",
+      "v1_length": 3,
+      "v1_ms": 838.2,
+      "v2_length": 3,
+      "v2_ms": 14.6,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-D-b6",
+      "v1_length": 3,
+      "v1_ms": 67476.0,
+      "v2_length": 3,
+      "v2_ms": 248.7,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-E-b4",
+      "v1_length": null,
+      "v1_ms": 786.1,
+      "v2_length": null,
+      "v2_ms": 18.4,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-E-b6",
+      "v1_length": 5,
+      "v1_ms": 66518.7,
+      "v2_length": 5,
+      "v2_ms": 153.5,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    },
+    {
+      "case": "Q7-F-b4",
+      "v1_length": null,
+      "v1_ms": 858.0,
+      "v2_length": null,
+      "v2_ms": 15.1,
+      "neo_length": "-",
+      "path_valid": "n/a",
+      "ok": true
+    },
+    {
+      "case": "Q7-F-b6",
+      "v1_length": 5,
+      "v1_ms": 68004.4,
+      "v2_length": 5,
+      "v2_ms": 168.0,
+      "neo_length": "-",
+      "path_valid": true,
+      "ok": true
+    }
+  ]
+}

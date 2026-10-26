@@ -1,0 +1,14 @@
+graph o {
+  rankdir=LR; node [style=filled fontname="Helvetica" fontsize=11]; edge [fontname="Helvetica" fontsize=9];
+  c998 [label="Customer 998\nKigali" shape=ellipse fillcolor="#F2DCDB"];
+  a998 [label="Account 998\nperson (review)" shape=box fillcolor="#F8CBAD"];
+  a220998 [label="Account 220998\nperson (2nd wallet)" shape=box fillcolor="#DCE6F2"];
+  d998 [label="Device 998\nhandset" shape=diamond fillcolor="#EBF1DE"];
+  d228001 [label="Device 228001\nhandset" shape=diamond fillcolor="#EBF1DE"];
+  a8917 [label="Account 8917" shape=box fillcolor="#DCE6F2"]; a16836 [label="Account 16836" shape=box fillcolor="#DCE6F2"];
+  a24755 [label="Account 24755\n(destination A)" shape=box fillcolor="#DCE6F2"];
+  c998 -- a998 [label="OWNS"]; c998 -- a220998 [label="OWNS"];
+  a998 -- d998 [label="days 0-29"]; a220998 -- d998 [label="days 0-29"];
+  a998 -- d228001 [label="days 0-29"]; d228001 -- a8917; d228001 -- a16836; d228001 -- a24755;
+  labelloc=t; label="Set A ownership/device links (Q3, Q4): the cycle members all share Device 228001 for the whole month";
+}

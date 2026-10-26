@@ -1,0 +1,19 @@
+{
+  "account": 998,
+  "sql": {
+    "account_id": "998",
+    "role": "person",
+    "customer_id": "998",
+    "region": "Kigali",
+    "device_id": "998",
+    "access_type": "handset",
+    "first_day": "0",
+    "last_day": "29",
+    "observations": "39",
+    "transfer_id": "113540",
+    "receiver_id": "240004",
+    "occurred_at": "1788245009",
+    "occurred_cat": "2026-09-01 08:43:29",
+    "amount_rwf": "2100"
+  }
+}

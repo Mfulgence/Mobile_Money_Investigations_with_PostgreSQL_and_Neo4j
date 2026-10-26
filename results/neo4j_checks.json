@@ -1,0 +1,232 @@
+{
+  "components": [
+    [
+      "Neo4j Kernel",
+      [
+        "2026.10.1"
+      ],
+      "community"
+    ],
+    [
+      "Cypher",
+      [
+        "5",
+        "25"
+      ],
+      ""
+    ]
+  ],
+  "setup_seconds": 0.3,
+  "constraints": [
+    [
+      "account_id_unique",
+      "NODE_PROPERTY_UNIQUENESS",
+      [
+        "Account"
+      ],
+      [
+        "account_id"
+      ]
+    ],
+    [
+      "customer_id_unique",
+      "NODE_PROPERTY_UNIQUENESS",
+      [
+        "Customer"
+      ],
+      [
+        "customer_id"
+      ]
+    ],
+    [
+      "device_id_unique",
+      "NODE_PROPERTY_UNIQUENESS",
+      [
+        "Device"
+      ],
+      [
+        "device_id"
+      ]
+    ]
+  ],
+  "indexes": [
+    [
+      "account_id_unique",
+      "RANGE",
+      "NODE",
+      [
+        "Account"
+      ],
+      [
+        "account_id"
+      ],
+      "ONLINE",
+      100.0
+    ],
+    [
+      "customer_id_unique",
+      "RANGE",
+      "NODE",
+      [
+        "Customer"
+      ],
+      [
+        "customer_id"
+      ],
+      "ONLINE",
+      100.0
+    ],
+    [
+      "device_id_unique",
+      "RANGE",
+      "NODE",
+      [
+        "Device"
+      ],
+      [
+        "device_id"
+      ],
+      "ONLINE",
+      100.0
+    ],
+    [
+      "index_1b9dcc97",
+      "LOOKUP",
+      "RELATIONSHIP",
+      null,
+      null,
+      "ONLINE",
+      100.0
+    ],
+    [
+      "index_460996c0",
+      "LOOKUP",
+      "NODE",
+      null,
+      null,
+      "ONLINE",
+      100.0
+    ],
+    [
+      "transfer_occurred_at",
+      "RANGE",
+      "RELATIONSHIP",
+      [
+        "TRANSFER"
+      ],
+      [
+        "occurred_at"
+      ],
+      "ONLINE",
+      100.0
+    ]
+  ],
+  "sizes": {
+    "store_gb": 2.049,
+    "txlog_gb": 0.0
+  },
+  "checks": [
+    {
+      "check": "(:Customer) nodes",
+      "got": 228000,
+      "expected": 228000,
+      "ok": true
+    },
+    {
+      "check": "(:Account) nodes",
+      "got": 248000,
+      "expected": 248000,
+      "ok": true
+    },
+    {
+      "check": "(:Device) nodes",
+      "got": 228600,
+      "expected": 228600,
+      "ok": true
+    },
+    {
+      "check": "[:OWNS] relationships",
+      "got": 248000,
+      "expected": 248000,
+      "ok": true
+    },
+    {
+      "check": "[:USED_DEVICE] relationships",
+      "got": 285600,
+      "expected": 285600,
+      "ok": true
+    },
+    {
+      "check": "[:TRANSFER] relationships",
+      "got": 20003300,
+      "expected": 20003300,
+      "ok": true
+    },
+    {
+      "check": "all nodes",
+      "got": 704600,
+      "expected": 704600,
+      "ok": true
+    },
+    {
+      "check": "all relationships",
+      "got": 20536900,
+      "expected": 20536900,
+      "ok": true
+    },
+    {
+      "check": "person accounts",
+      "got": 240000,
+      "expected": 240000,
+      "ok": true
+    },
+    {
+      "check": "merchant accounts",
+      "got": 6000,
+      "expected": 6000,
+      "ok": true
+    },
+    {
+      "check": "agent accounts",
+      "got": 2000,
+      "expected": 2000,
+      "ok": true
+    },
+    {
+      "check": "accounts without exactly one owner",
+      "got": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "check": "distinct transfer_id = transfer count",
+      "got": 20003300,
+      "expected": 20003300,
+      "ok": true
+    },
+    {
+      "check": "transfer count",
+      "got": 20003300,
+      "expected": 20003300,
+      "ok": true
+    },
+    {
+      "check": "earliest occurred_at",
+      "got": 1788235200,
+      "expected": 1788235200,
+      "ok": true
+    },
+    {
+      "check": "latest occurred_at",
+      "got": 1790798399,
+      "expected": 1790798399,
+      "ok": true
+    },
+    {
+      "check": "sum amount_rwf",
+      "got": 231482327870,
+      "expected": 231482327870,
+      "ok": true
+    }
+  ]
+}

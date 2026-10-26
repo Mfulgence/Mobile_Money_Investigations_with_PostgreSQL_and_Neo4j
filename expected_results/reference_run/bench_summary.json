@@ -1,0 +1,255 @@
+{
+  "table": [
+    {
+      "case": "Q1-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.31,
+      "min_ms": 0.26,
+      "max_ms": 0.43
+    },
+    {
+      "case": "Q1-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.24,
+      "min_ms": 0.18,
+      "max_ms": 0.31
+    },
+    {
+      "case": "Q2-month",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 3504.14,
+      "min_ms": 3235.65,
+      "max_ms": 3891.53
+    },
+    {
+      "case": "Q3-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.12,
+      "min_ms": 1.06,
+      "max_ms": 1.36
+    },
+    {
+      "case": "Q3-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.36,
+      "min_ms": 0.3,
+      "max_ms": 0.6
+    },
+    {
+      "case": "Q4-B-d10",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 5.77,
+      "min_ms": 5.74,
+      "max_ms": 5.88
+    },
+    {
+      "case": "Q4-B-d4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.74,
+      "min_ms": 1.5,
+      "max_ms": 1.85
+    },
+    {
+      "case": "Q4-B-d6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.9,
+      "min_ms": 1.53,
+      "max_ms": 3.08
+    },
+    {
+      "case": "Q4-B-d8",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 3.73,
+      "min_ms": 3.68,
+      "max_ms": 3.91
+    },
+    {
+      "case": "Q4-E-d10",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 10.46,
+      "min_ms": 10.37,
+      "max_ms": 10.65
+    },
+    {
+      "case": "Q4-E-d4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.9,
+      "min_ms": 0.73,
+      "max_ms": 0.95
+    },
+    {
+      "case": "Q4-E-d6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.89,
+      "min_ms": 1.83,
+      "max_ms": 2.04
+    },
+    {
+      "case": "Q4-E-d8",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 3.88,
+      "min_ms": 3.72,
+      "max_ms": 6.82
+    },
+    {
+      "case": "Q5-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 1.61,
+      "min_ms": 1.4,
+      "max_ms": 1.78
+    },
+    {
+      "case": "Q5-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.43,
+      "min_ms": 0.32,
+      "max_ms": 0.6
+    },
+    {
+      "case": "Q6-B",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.86,
+      "min_ms": 0.78,
+      "max_ms": 1.46
+    },
+    {
+      "case": "Q6-E",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 0.34,
+      "min_ms": 0.3,
+      "max_ms": 0.59
+    },
+    {
+      "case": "Q7-B-b4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 278.03,
+      "min_ms": 244.59,
+      "max_ms": 406.28
+    },
+    {
+      "case": "Q7-B-b4",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 6.49,
+      "min_ms": 6.21,
+      "max_ms": 6.7
+    },
+    {
+      "case": "Q7-B-b6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 23699.03,
+      "min_ms": 22077.02,
+      "max_ms": 26970.55
+    },
+    {
+      "case": "Q7-B-b6",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 40.96,
+      "min_ms": 38.4,
+      "max_ms": 68.6
+    },
+    {
+      "case": "Q7-E-b4",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 253.81,
+      "min_ms": 234.38,
+      "max_ms": 299.03
+    },
+    {
+      "case": "Q7-E-b4",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 5.79,
+      "min_ms": 5.53,
+      "max_ms": 6.93
+    },
+    {
+      "case": "Q7-E-b6",
+      "engine": "pg",
+      "variant": "v1",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 23384.32,
+      "min_ms": 21426.79,
+      "max_ms": 25032.69
+    },
+    {
+      "case": "Q7-E-b6",
+      "engine": "pg",
+      "variant": "v2",
+      "runs_ok": 5,
+      "failed": 0,
+      "median_ms": 61.12,
+      "min_ms": 42.02,
+      "max_ms": 70.37
+    }
+  ],
+  "ratios": []
+}

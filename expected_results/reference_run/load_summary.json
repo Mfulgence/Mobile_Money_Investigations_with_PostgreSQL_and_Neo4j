@@ -1,0 +1,98 @@
+[
+  {
+    "engine": "pg",
+    "workload": "Q4_d10",
+    "clients": 1,
+    "reps": 3,
+    "throughput_rps": 66.32,
+    "median_ms": 7.2,
+    "p95_ms": 43.7,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 50.9
+  },
+  {
+    "engine": "pg",
+    "workload": "Q4_d10",
+    "clients": 4,
+    "reps": 3,
+    "throughput_rps": 124.81,
+    "median_ms": 16.6,
+    "p95_ms": 88.9,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 99.7
+  },
+  {
+    "engine": "pg",
+    "workload": "Q4_d10",
+    "clients": 8,
+    "reps": 3,
+    "throughput_rps": 118.19,
+    "median_ms": 37.1,
+    "p95_ms": 183.1,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 93.8
+  },
+  {
+    "engine": "pg",
+    "workload": "Q4_d10",
+    "clients": 16,
+    "reps": 3,
+    "throughput_rps": 118.89,
+    "median_ms": 70.4,
+    "p95_ms": 363.9,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 94.8
+  },
+  {
+    "engine": "pg",
+    "workload": "Q7_b6",
+    "clients": 1,
+    "reps": 3,
+    "throughput_rps": 20.35,
+    "median_ms": 43.9,
+    "p95_ms": 73.2,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 47.9
+  },
+  {
+    "engine": "pg",
+    "workload": "Q7_b6",
+    "clients": 4,
+    "reps": 3,
+    "throughput_rps": 39.58,
+    "median_ms": 92.3,
+    "p95_ms": 147.7,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 94.8
+  },
+  {
+    "engine": "pg",
+    "workload": "Q7_b6",
+    "clients": 8,
+    "reps": 3,
+    "throughput_rps": 35.78,
+    "median_ms": 211.8,
+    "p95_ms": 312.5,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 96.9
+  },
+  {
+    "engine": "pg",
+    "workload": "Q7_b6",
+    "clients": 16,
+    "reps": 3,
+    "throughput_rps": 35.39,
+    "median_ms": 430.9,
+    "p95_ms": 612.8,
+    "errors": 0.0,
+    "timeouts": 0.0,
+    "cpu_avg_pct": 100.0
+  }
+]

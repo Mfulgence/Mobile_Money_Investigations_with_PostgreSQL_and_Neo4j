@@ -1,0 +1,169 @@
+case,question,params,engine,variant,phase,run,start_cat,duration_ms,rows,status
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:17:58,598.3,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:17:59,0.84,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:17:59,0.68,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:17:59,0.65,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:17:59,0.64,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:17:59,0.79,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:17:59,0.58,1,ok
+Q1-B,Q1,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:17:59,0.56,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:17:59,0.93,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:17:59,0.8,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:17:59,0.64,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:17:59,0.74,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:17:59,0.44,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:17:59,0.46,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:17:59,0.4,1,ok
+Q1-E,Q1,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:17:59,0.42,1,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,warmup,1,2026-10-26 15:17:59,7759.35,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,warmup,2,2026-10-26 15:18:07,8103.9,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,warmup,3,2026-10-26 15:18:15,7818.48,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,measured,1,2026-10-26 15:18:23,7341.42,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,measured,2,2026-10-26 15:18:30,7326.55,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,measured,3,2026-10-26 15:18:37,7295.15,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,measured,4,2026-10-26 15:18:45,7128.85,30,ok
+Q2-month,Q2,"{'start': 1788213600, 'end': 1790805600}",pg,v1,measured,5,2026-10-26 15:18:52,7055.15,30,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:18:59,13.45,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:18:59,2.31,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:18:59,2.09,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:18:59,2.16,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:18:59,2.25,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:18:59,2.37,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:18:59,1.95,9,ok
+Q3-B,Q3,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:18:59,1.83,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:18:59,2.08,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:18:59,1.67,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:18:59,1.83,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:18:59,1.02,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:18:59,1.14,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:18:59,1.11,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:18:59,0.99,9,ok
+Q3-E,Q3,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:18:59,1.01,9,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,1,2026-10-26 15:18:59,54.86,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,2,2026-10-26 15:18:59,4.9,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,3,2026-10-26 15:18:59,4.7,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,1,2026-10-26 15:18:59,4.74,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,2,2026-10-26 15:18:59,4.64,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,3,2026-10-26 15:18:59,4.93,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,4,2026-10-26 15:18:59,3.79,5,ok
+Q4-B-d4,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,5,2026-10-26 15:18:59,4.16,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,1,2026-10-26 15:18:59,13.97,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,2,2026-10-26 15:18:59,8.06,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,3,2026-10-26 15:18:59,9.25,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,1,2026-10-26 15:18:59,5.95,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,2,2026-10-26 15:18:59,6.17,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,3,2026-10-26 15:18:59,6.08,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,4,2026-10-26 15:18:59,5.41,5,ok
+Q4-B-d6,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,5,2026-10-26 15:18:59,5.74,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,1,2026-10-26 15:18:59,17.81,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,2,2026-10-26 15:18:59,13.17,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,3,2026-10-26 15:18:59,13.51,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,1,2026-10-26 15:18:59,13.43,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,2,2026-10-26 15:18:59,14.4,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,3,2026-10-26 15:18:59,13.72,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,4,2026-10-26 15:18:59,15.2,5,ok
+Q4-B-d8,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,5,2026-10-26 15:18:59,14.44,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,1,2026-10-26 15:18:59,34.87,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,2,2026-10-26 15:18:59,22.18,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,3,2026-10-26 15:18:59,20.53,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,1,2026-10-26 15:18:59,22.13,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,2,2026-10-26 15:18:59,19.82,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,3,2026-10-26 15:18:59,20.47,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,4,2026-10-26 15:18:59,23.41,5,ok
+Q4-B-d10,Q4,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,5,2026-10-26 15:18:59,29.24,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,1,2026-10-26 15:18:59,12.4,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,2,2026-10-26 15:18:59,2.12,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,warmup,3,2026-10-26 15:18:59,2.07,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,1,2026-10-26 15:18:59,1.97,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,2,2026-10-26 15:18:59,2.44,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,3,2026-10-26 15:18:59,1.96,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,4,2026-10-26 15:18:59,1.77,5,ok
+Q4-E-d4,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 4}",pg,v1,measured,5,2026-10-26 15:18:59,1.8,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,1,2026-10-26 15:18:59,12.31,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,2,2026-10-26 15:18:59,7.88,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,warmup,3,2026-10-26 15:18:59,6.8,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,1,2026-10-26 15:18:59,6.67,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,2,2026-10-26 15:18:59,5.37,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,3,2026-10-26 15:18:59,5.57,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,4,2026-10-26 15:18:59,5.55,5,ok
+Q4-E-d6,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 6}",pg,v1,measured,5,2026-10-26 15:18:59,5.53,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,1,2026-10-26 15:18:59,15.16,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,2,2026-10-26 15:18:59,12.15,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,warmup,3,2026-10-26 15:18:59,14.92,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,1,2026-10-26 15:18:59,11.79,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,2,2026-10-26 15:18:59,10.9,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,3,2026-10-26 15:18:59,9.94,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,4,2026-10-26 15:19:00,16.1,5,ok
+Q4-E-d8,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 8}",pg,v1,measured,5,2026-10-26 15:19:00,13.15,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,1,2026-10-26 15:19:00,40.48,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,2,2026-10-26 15:19:00,25.54,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,warmup,3,2026-10-26 15:19:00,33.18,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,1,2026-10-26 15:19:00,21.98,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,2,2026-10-26 15:19:00,20.17,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,3,2026-10-26 15:19:00,20.85,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,4,2026-10-26 15:19:00,20.14,5,ok
+Q4-E-d10,Q4,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'depth': 10}",pg,v1,measured,5,2026-10-26 15:19:00,20.42,5,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:19:00,4.32,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:19:00,3.28,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:19:00,2.96,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:19:00,2.44,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:19:00,2.5,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:19:00,2.59,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:19:00,1.88,1,ok
+Q5-B,Q5,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:19:00,1.71,1,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:19:00,2.48,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:19:00,2.02,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:19:00,1.63,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:19:00,0.76,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:19:00,0.6,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:19:00,0.62,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:19:00,0.7,0,ok
+Q5-E,Q5,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:19:00,0.87,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:19:00,3.53,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:19:00,1.21,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:19:00,1.58,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:19:00,1.49,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:19:00,1.68,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:19:00,1.68,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:19:00,1.25,0,ok
+Q6-B,Q6,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:19:00,1.42,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,1,2026-10-26 15:19:00,1.47,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,2,2026-10-26 15:19:00,1.32,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,warmup,3,2026-10-26 15:19:00,1.21,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,1,2026-10-26 15:19:00,0.77,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,2,2026-10-26 15:19:00,0.62,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,3,2026-10-26 15:19:00,0.62,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,4,2026-10-26 15:19:00,0.67,0,ok
+Q6-E,Q6,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100}",pg,v1,measured,5,2026-10-26 15:19:00,0.76,0,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,1,2026-10-26 15:19:00,1240.7,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,2,2026-10-26 15:19:01,953.68,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,3,2026-10-26 15:19:02,797.03,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,1,2026-10-26 15:19:03,832.63,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,2,2026-10-26 15:19:04,839.73,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,3,2026-10-26 15:19:04,810.4,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,4,2026-10-26 15:19:05,833.69,1,ok
+Q7-B-b4,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,5,2026-10-26 15:19:06,817.54,1,ok
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,1,2026-10-26 15:19:07,71641.45,1,ok
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,2,2026-10-26 15:20:19,63382.03,1,ok
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,3,2026-10-26 15:21:22,63669.93,1,ok
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,1,2026-10-26 15:22:26,60025.74,,timeout
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,2,2026-10-26 15:23:26,60014.73,,timeout
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,3,2026-10-26 15:24:26,60025.78,,timeout
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,4,2026-10-26 15:25:26,60010.78,,timeout
+Q7-B-b6,Q7,"{'account': 147228, 'destination': 186823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,5,2026-10-26 15:26:26,60012.99,,timeout
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,1,2026-10-26 15:27:26,813.27,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,2,2026-10-26 15:27:27,790.33,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,warmup,3,2026-10-26 15:27:27,794.35,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,1,2026-10-26 15:27:28,788.8,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,2,2026-10-26 15:27:29,790.1,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,3,2026-10-26 15:27:30,801.47,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,4,2026-10-26 15:27:30,788.39,1,ok
+Q7-E-b4,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 4}",pg,v1,measured,5,2026-10-26 15:27:31,787.3,1,ok
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,1,2026-10-26 15:27:32,65719.3,1,ok
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,2,2026-10-26 15:28:38,66399.11,1,ok
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,warmup,3,2026-10-26 15:29:44,66740.48,1,ok
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,1,2026-10-26 15:30:51,60027.08,,timeout
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,2,2026-10-26 15:31:51,60025.15,,timeout
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,3,2026-10-26 15:32:51,60023.89,,timeout
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,4,2026-10-26 15:33:51,60019.27,,timeout
+Q7-E-b6,Q7,"{'account': 144228, 'destination': 183823, 'start': 1789285500, 'end': 1789289100, 'bound': 6}",pg,v1,measured,5,2026-10-26 15:34:51,60012.27,,timeout

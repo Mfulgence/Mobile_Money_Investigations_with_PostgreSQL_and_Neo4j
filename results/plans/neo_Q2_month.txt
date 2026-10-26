@@ -1,0 +1,16 @@
+// Q2_month
+// params {}
+
+MATCH ()-[t:TRANSFER]->()
+WITH date(datetime({epochSeconds: t.occurred_at, timezone: 'Africa/Kigali'})) AS day, t.amount_rwf AS amount
+RETURN day, count(*) AS transfers, sum(amount) AS total_rwf
+ORDER BY day
+
+
+planner= runtime=SLOTTED total dbHits=100016501  result_available_after=254 ms consumed_after=137012 ms
++ProduceResults@neo4j  rows=30  dbHits=0  pageCacheHits=0  time_ms=-  | day, transfers, total_rwf
+  +Sort@neo4j  rows=30  dbHits=0  pageCacheHits=0  time_ms=-  | day ASC
+    +EagerAggregation@neo4j  rows=30  dbHits=0  pageCacheHits=0  time_ms=-  | day, count(*) AS transfers, sum(amount) AS total_rwf
+      +Projection@neo4j  rows=20003300  dbHits=40006600  pageCacheHits=0  time_ms=-  | date(datetime({epochSeconds: cache[t.occurred_at], timezone: $autostring_0})) AS day, cache[t.amount_rwf] AS amount
+        +CacheProperties@neo4j  rows=20003300  dbHits=40006600  pageCacheHits=0  time_ms=-  | cache[t.occurred_at], cache[t.amount_rwf]
+          +DirectedRelationshipTypeScan@neo4j  rows=20003300  dbHits=20003301  pageCacheHits=0  time_ms=-  | ()-[t:TRANSFER]->()

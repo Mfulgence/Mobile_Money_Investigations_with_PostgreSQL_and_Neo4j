@@ -1,0 +1,35 @@
+digraph pg {
+  rankdir=LR; node [shape=plain fontname="Helvetica" fontsize=11]; edge [fontname="Helvetica" fontsize=9 color="#555555"];
+  customers [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+    <tr><td bgcolor="#DCE6F2"><b>customers</b></td></tr>
+    <tr><td align="left" port="pk">PK customer_id INTEGER</td></tr>
+    <tr><td align="left">region TEXT</td></tr></table>>];
+  accounts [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+    <tr><td bgcolor="#DCE6F2"><b>accounts</b></td></tr>
+    <tr><td align="left" port="pk">PK account_id INTEGER</td></tr>
+    <tr><td align="left" port="fk">FK customer_id INTEGER</td></tr>
+    <tr><td align="left">role TEXT (person|merchant|agent)</td></tr></table>>];
+  devices [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+    <tr><td bgcolor="#DCE6F2"><b>devices</b></td></tr>
+    <tr><td align="left" port="pk">PK device_id INTEGER</td></tr>
+    <tr><td align="left">access_type TEXT (handset|public_terminal)</td></tr></table>>];
+  account_devices [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+    <tr><td bgcolor="#DCE6F2"><b>account_devices</b></td></tr>
+    <tr><td align="left" port="a">PK,FK account_id INTEGER</td></tr>
+    <tr><td align="left" port="d">PK,FK device_id INTEGER</td></tr>
+    <tr><td align="left">first_day SMALLINT (0..29)</td></tr>
+    <tr><td align="left">last_day SMALLINT (0..29)</td></tr>
+    <tr><td align="left">observations INTEGER &gt; 0</td></tr></table>>];
+  transfers [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+    <tr><td bgcolor="#DCE6F2"><b>transfers</b></td></tr>
+    <tr><td align="left">PK transfer_id BIGINT</td></tr>
+    <tr><td align="left" port="s">FK sender_id INTEGER</td></tr>
+    <tr><td align="left" port="r">FK receiver_id INTEGER</td></tr>
+    <tr><td align="left">occurred_at BIGINT (Unix s)</td></tr>
+    <tr><td align="left">amount_rwf INTEGER &gt; 0 (RWF)</td></tr></table>>];
+  accounts:fk -> customers:pk [label="owned by (N:1)"];
+  account_devices:a -> accounts:pk [label="N:1"];
+  account_devices:d -> devices:pk [label="N:1"];
+  transfers:s -> accounts:pk [label="sender"];
+  transfers:r -> accounts:pk [label="receiver"];
+}

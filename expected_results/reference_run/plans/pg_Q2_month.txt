@@ -1,0 +1,38 @@
+-- Q2_month
+-- params {}
+
+SELECT (to_timestamp(occurred_at) AT TIME ZONE 'Africa/Kigali')::date AS day,
+       COUNT(*) AS transfers, SUM(amount_rwf) AS total_rwf
+FROM transfers
+GROUP BY 1
+ORDER BY 1
+
+
+Sort  (cost=504987.82..505906.55 rows=367490 width=20) (actual time=4467.452..4470.830 rows=30 loops=1)
+  Sort Key: (((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date)
+  Sort Method: quicksort  Memory: 26kB
+  Buffers: shared hit=3719 read=143420
+  ->  Finalize HashAggregate  (cost=463668.45..471018.25 rows=367490 width=20) (actual time=4465.471..4470.774 rows=30 loops=1)
+        Group Key: (((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date)
+        Batches: 1  Memory Usage: 12313kB
+        Buffers: shared hit=3716 read=143420
+        ->  Gather  (cost=377308.30..458156.10 rows=734980 width=20) (actual time=4458.967..4468.740 rows=90 loops=1)
+              Workers Planned: 2
+              Workers Launched: 2
+              Buffers: shared hit=3716 read=143420
+              ->  Partial HashAggregate  (cost=376308.30..383658.10 rows=367490 width=20) (actual time=4429.456..4433.137 rows=30 loops=3)
+                    Group Key: ((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date
+                    Batches: 1  Memory Usage: 12313kB
+                    Buffers: shared hit=3716 read=143420
+                    Worker 0:  Batches: 1  Memory Usage: 12313kB
+                    Worker 1:  Batches: 1  Memory Usage: 12313kB
+                    ->  Parallel Seq Scan on transfers  (cost=0.00..313806.76 rows=8333538 width=8) (actual time=220.837..3373.279 rows=6667767 loops=3)
+                          Buffers: shared hit=3716 read=143420
+Planning:
+  Buffers: shared hit=171
+Planning Time: 0.414 ms
+JIT:
+  Functions: 22
+  Options: Inlining true, Optimization true, Expressions true, Deforming true
+  Timing: Generation 1.910 ms, Inlining 404.475 ms, Optimization 167.522 ms, Emission 90.430 ms, Total 664.337 ms
+Execution Time: 4503.989 ms

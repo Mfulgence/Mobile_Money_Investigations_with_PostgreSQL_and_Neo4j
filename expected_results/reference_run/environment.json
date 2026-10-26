@@ -1,0 +1,43 @@
+{
+  "recorded_at_cat": "2026-10-19 09:55:47",
+  "machine": {
+    "os": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu": "x86_64",
+    "logical_cpus": 2,
+    "python": "3.13.16",
+    "ram_gb": 8.42,
+    "physical_cores": 2,
+    "numpy_version": "2.5.3",
+    "psycopg_version": "3.3.6",
+    "neo4j_version": "6.4.1",
+    "matplotlib_version": "3.11.2",
+    "pandas_version": "3.0.5"
+  },
+  "postgresql": {
+    "version": "PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+    "database": [
+      "mobile_money",
+      "postgres"
+    ],
+    "connected_at": "2026-10-19 09:55:47.748096+02:00",
+    "settings": {
+      "shared_buffers": "2GB",
+      "effective_cache_size": "5GB",
+      "work_mem": "64MB",
+      "maintenance_work_mem": "1GB",
+      "max_wal_size": "8GB",
+      "max_parallel_workers_per_gather": "2",
+      "jit": "on",
+      "TimeZone": "Africa/Kigali",
+      "statement_timeout": "3min"
+    },
+    "db_timezone_setting": [
+      [
+        [
+          "TimeZone=Africa/Kigali"
+        ]
+      ]
+    ]
+  }
+}

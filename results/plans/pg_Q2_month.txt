@@ -1,0 +1,36 @@
+-- Q2_month
+-- params {}
+
+SELECT (to_timestamp(occurred_at) AT TIME ZONE 'Africa/Kigali')::date AS day,
+       COUNT(*) AS transfers, SUM(amount_rwf) AS total_rwf
+FROM transfers
+GROUP BY 1
+ORDER BY 1
+
+
+Sort  (cost=493408.68..494332.20 rows=369409 width=20) (actual time=7253.774..7393.632 rows=30.00 loops=1)
+  Sort Key: (((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date)
+  Sort Method: quicksort  Memory: 26kB
+  Buffers: shared hit=133374 read=13765
+  ->  Finalize HashAggregate  (cost=451859.66..459247.84 rows=369409 width=20) (actual time=7251.007..7393.508 rows=30.00 loops=1)
+        Group Key: (((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date)
+        Batches: 1  Memory Usage: 8225kB
+        Buffers: shared hit=133371 read=13765
+        ->  Gather  (cost=285625.61..440777.39 rows=1477636 width=20) (actual time=7244.434..7390.666 rows=150.00 loops=1)
+              Workers Planned: 4
+              Workers Launched: 4
+              Buffers: shared hit=133371 read=13765
+              ->  Partial HashAggregate  (cost=284625.61..292013.79 rows=369409 width=20) (actual time=7158.262..7161.552 rows=30.00 loops=5)
+                    Group Key: ((to_timestamp((occurred_at)::double precision) AT TIME ZONE 'Africa/Kigali'::text))::date
+                    Batches: 1  Memory Usage: 8225kB
+                    Buffers: shared hit=133371 read=13765
+                    Worker 0:  Batches: 1  Memory Usage: 8225kB
+                    Worker 1:  Batches: 1  Memory Usage: 8225kB
+                    Worker 2:  Batches: 1  Memory Usage: 8225kB
+                    Worker 3:  Batches: 1  Memory Usage: 8225kB
+                    ->  Parallel Seq Scan on transfers  (cost=0.00..247128.45 rows=4999622 width=8) (actual time=1.815..5574.952 rows=4000660.00 loops=5)
+                          Buffers: shared hit=133371 read=13765
+Planning:
+  Buffers: shared hit=179
+Planning Time: 5.034 ms
+Execution Time: 7402.249 ms

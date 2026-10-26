@@ -1,0 +1,10 @@
+digraph c {
+  rankdir=LR; node [shape=box style="rounded,filled" fillcolor="#DCE6F2" fontname="Helvetica" fontsize=11]; edge [fontname="Helvetica" fontsize=9];
+  a998 [label="Account 998\n(review, person)" fillcolor="#F8CBAD"];
+  a8917 [label="Account 8917\nperson"]; a16836 [label="Account 16836\nperson"]; a24755 [label="Account 24755\nperson (destination A)"];
+  a998 -> a8917 [label="t20000001\n10:00:00 CAT\n200,000 RWF"];
+  a8917 -> a16836 [label="t20000002\n10:00:40 CAT\n196,000 RWF (98%)"];
+  a16836 -> a24755 [label="t20000003\n10:01:20 CAT\n192,080 RWF (98%)"];
+  a24755 -> a998 [label="t20000004\n10:02:00 CAT\n188,238 RWF (98%)" color="#C00000" fontcolor="#C00000"];
+  labelloc=t; label="Set A, 6 Sep 2026: Q5 chain = first three transfers; Q6 cycle = all four (span 120 s)";
+}

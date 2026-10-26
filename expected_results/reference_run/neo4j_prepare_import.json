@@ -1,0 +1,12 @@
+{
+  "seconds": 0.9,
+  "owns_rows": 248000,
+  "source_unchanged": true,
+  "source_md5": {
+    "customers.csv": "c0419d2d77800f3a86012d38612e0fb2",
+    "accounts.csv": "824e088672f240b0e46c1c76e70f06cc",
+    "devices.csv": "a66cf74e6ce16d7a9d169ebb1429874c",
+    "account_devices.csv": "67b22b9fabe953df274549b8fb2225c9",
+    "transfers.csv": "3adac8b31e9599d5bbc63d3ea69b610f"
+  }
+}

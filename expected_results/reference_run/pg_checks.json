@@ -1,0 +1,282 @@
+{
+  "counts": [
+    {
+      "check": "rows in customers",
+      "got": 228000,
+      "expected": 228000,
+      "ok": true
+    },
+    {
+      "check": "rows in accounts",
+      "got": 248000,
+      "expected": 248000,
+      "ok": true
+    },
+    {
+      "check": "rows in devices",
+      "got": 228600,
+      "expected": 228600,
+      "ok": true
+    },
+    {
+      "check": "rows in account_devices",
+      "got": 285600,
+      "expected": 285600,
+      "ok": true
+    },
+    {
+      "check": "rows in transfers",
+      "got": 20003300,
+      "expected": 20003300,
+      "ok": true
+    }
+  ],
+  "audit": [
+    {
+      "check": "transfer count",
+      "got": 20003300,
+      "expected": 20003300,
+      "ok": true
+    },
+    {
+      "check": "earliest occurred_at",
+      "got": 1788235200,
+      "expected": 1788235200,
+      "ok": true
+    },
+    {
+      "check": "latest occurred_at",
+      "got": 1790798399,
+      "expected": 1790798399,
+      "ok": true
+    },
+    {
+      "check": "sum amount_rwf",
+      "got": 231482327870,
+      "expected": 231482327870,
+      "ok": true
+    }
+  ],
+  "roles": [
+    {
+      "check": "person accounts",
+      "got": 240000,
+      "expected": 240000,
+      "ok": true
+    },
+    {
+      "check": "merchant accounts",
+      "got": 6000,
+      "expected": 6000,
+      "ok": true
+    },
+    {
+      "check": "agent accounts",
+      "got": 2000,
+      "expected": 2000,
+      "ok": true
+    }
+  ],
+  "constraints": [
+    [
+      "account_devices",
+      "ad_day_range",
+      "CHECK",
+      true,
+      "CHECK (((0 <= first_day) AND (first_day <= last_day) AND (last_day <= 29)))"
+    ],
+    [
+      "account_devices",
+      "ad_observations_pos",
+      "CHECK",
+      true,
+      "CHECK ((observations > 0))"
+    ],
+    [
+      "account_devices",
+      "ad_account_fk",
+      "FOREIGN KEY",
+      true,
+      "FOREIGN KEY (account_id) REFERENCES accounts(account_id)"
+    ],
+    [
+      "account_devices",
+      "ad_device_fk",
+      "FOREIGN KEY",
+      true,
+      "FOREIGN KEY (device_id) REFERENCES devices(device_id)"
+    ],
+    [
+      "account_devices",
+      "account_devices_pk",
+      "PRIMARY KEY",
+      true,
+      "PRIMARY KEY (account_id, device_id)"
+    ],
+    [
+      "accounts",
+      "accounts_role_values",
+      "CHECK",
+      true,
+      "CHECK ((role = ANY (ARRAY['person'::text, 'merchant'::text, 'agent'::text])))"
+    ],
+    [
+      "accounts",
+      "accounts_customer_fk",
+      "FOREIGN KEY",
+      true,
+      "FOREIGN KEY (customer_id) REFERENCES customers(customer_id)"
+    ],
+    [
+      "accounts",
+      "accounts_pk",
+      "PRIMARY KEY",
+      true,
+      "PRIMARY KEY (account_id)"
+    ],
+    [
+      "customers",
+      "customers_pk",
+      "PRIMARY KEY",
+      true,
+      "PRIMARY KEY (customer_id)"
+    ],
+    [
+      "devices",
+      "devices_access_values",
+      "CHECK",
+      true,
+      "CHECK ((access_type = ANY (ARRAY['handset'::text, 'public_terminal'::text])))"
+    ],
+    [
+      "devices",
+      "devices_pk",
+      "PRIMARY KEY",
+      true,
+      "PRIMARY KEY (device_id)"
+    ],
+    [
+      "transfers",
+      "transfers_amount_pos",
+      "CHECK",
+      true,
+      "CHECK ((amount_rwf > 0))"
+    ],
+    [
+      "transfers",
+      "transfers_receiver_fk",
+      "FOREIGN KEY",
+      true,
+      "FOREIGN KEY (receiver_id) REFERENCES accounts(account_id)"
+    ],
+    [
+      "transfers",
+      "transfers_sender_fk",
+      "FOREIGN KEY",
+      true,
+      "FOREIGN KEY (sender_id) REFERENCES accounts(account_id)"
+    ],
+    [
+      "transfers",
+      "transfers_pk",
+      "PRIMARY KEY",
+      true,
+      "PRIMARY KEY (transfer_id)"
+    ]
+  ],
+  "not_null": {
+    "check": "NOT NULL columns / all columns",
+    "got": 17,
+    "expected": 17,
+    "ok": true
+  },
+  "indexes": [
+    [
+      "account_devices",
+      "account_devices_pk",
+      "CREATE UNIQUE INDEX account_devices_pk ON public.account_devices USING btree (account_id, device_id)"
+    ],
+    [
+      "account_devices",
+      "ad_device_idx",
+      "CREATE INDEX ad_device_idx ON public.account_devices USING btree (device_id, account_id)"
+    ],
+    [
+      "accounts",
+      "accounts_customer_idx",
+      "CREATE INDEX accounts_customer_idx ON public.accounts USING btree (customer_id, account_id)"
+    ],
+    [
+      "accounts",
+      "accounts_pk",
+      "CREATE UNIQUE INDEX accounts_pk ON public.accounts USING btree (account_id)"
+    ],
+    [
+      "customers",
+      "customers_pk",
+      "CREATE UNIQUE INDEX customers_pk ON public.customers USING btree (customer_id)"
+    ],
+    [
+      "devices",
+      "devices_pk",
+      "CREATE UNIQUE INDEX devices_pk ON public.devices USING btree (device_id)"
+    ],
+    [
+      "transfers",
+      "transfers_pk",
+      "CREATE UNIQUE INDEX transfers_pk ON public.transfers USING btree (transfer_id)"
+    ],
+    [
+      "transfers",
+      "transfers_receiver_time_idx",
+      "CREATE INDEX transfers_receiver_time_idx ON public.transfers USING btree (receiver_id, occurred_at) INCLUDE (sender_id, amount_rwf, transfer_id)"
+    ],
+    [
+      "transfers",
+      "transfers_sender_time_idx",
+      "CREATE INDEX transfers_sender_time_idx ON public.transfers USING btree (sender_id, occurred_at) INCLUDE (receiver_id, amount_rwf, transfer_id)"
+    ],
+    [
+      "transfers",
+      "transfers_time_brin",
+      "CREATE INDEX transfers_time_brin ON public.transfers USING brin (occurred_at)"
+    ]
+  ],
+  "sizes": {
+    "tables": [
+      [
+        "transfers",
+        1205698560,
+        2433507328,
+        3639205888
+      ],
+      [
+        "account_devices",
+        12681216,
+        12877824,
+        25559040
+      ],
+      [
+        "accounts",
+        11075584,
+        11190272,
+        22265856
+      ],
+      [
+        "devices",
+        10174464,
+        5160960,
+        15335424
+      ],
+      [
+        "customers",
+        10141696,
+        5144576,
+        15286272
+      ]
+    ],
+    "data_gb": 1.25,
+    "index_gb": 2.468,
+    "database_gb": 3.726
+  }
+}

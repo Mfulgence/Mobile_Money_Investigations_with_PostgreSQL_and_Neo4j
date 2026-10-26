@@ -1,0 +1,190 @@
+Running 61 cases on pg at 2026-10-19 09:52:33 CAT
+
+Q4 prediction made BEFORE running depths 8 and 10 (growth factor d4->d6 applied again):
+  A: d4=10 d6=43 growth x4.30 -> predicted d8~185 d10~795
+  B: d4=46 d6=178 growth x3.87 -> predicted d8~689 d10~2665
+  C: d4=146 d6=483 growth x3.31 -> predicted d8~1598 d10~5286
+  D: d4=10 d6=44 growth x4.40 -> predicted d8~194 d10~852
+  E: d4=47 d6=183 growth x3.89 -> predicted d8~713 d10~2774
+  F: d4=147 d6=488 growth x3.32 -> predicted d8~1620 d10~5378
+  A: actual d8=175 (predicted 185)  d10=187 (predicted 795)
+  B: actual d8=188 (predicted 689)  d10=228 (predicted 2665)
+  C: actual d8=832 (predicted 1598)  d10=1433 (predicted 5286)
+  D: actual d8=180 (predicted 194)  d10=192 (predicted 852)
+  E: actual d8=193 (predicted 713)  d10=230 (predicted 2774)
+  F: actual d8=837 (predicted 1620)  d10=1426 (predicted 5378)
+
+================ PG results  (2026-10-19 09:55:10 CAT) ================
+
+Q1 outgoing activity in the hour 09:45-10:45 CAT
+  A account    998  2026-09-06  transfers=1  total=200,000 RWF
+  B account 147228  2026-09-13  transfers=1  total=1,050,000 RWF
+  C account 206978  2026-09-08  transfers=1  total=300,000 RWF
+  D account 237998  2026-09-06  transfers=1  total=45,000 RWF
+  E account 144228  2026-09-13  transfers=1  total=40,000 RWF
+  F account 203978  2026-09-08  transfers=1  total=30,000 RWF
+
+Q2 daily activity: 30 days, total transfers 20,003,300, total value 231,482,327,870 RWF
+  2026-09-01    666,667 transfers    7,683,326,000 RWF
+  2026-09-02    666,667 transfers    7,678,846,900 RWF
+  2026-09-03    666,666 transfers    7,665,877,900 RWF
+  2026-09-04    666,667 transfers    7,665,199,000 RWF
+  2026-09-05    666,667 transfers    7,679,091,900 RWF
+  2026-09-06    666,816 transfers    7,741,994,180 RWF
+  2026-09-07    666,817 transfers    7,726,576,180 RWF
+  2026-09-08    666,907 transfers    7,777,047,990 RWF
+  2026-09-09    666,906 transfers    7,783,400,210 RWF
+  2026-09-10    666,997 transfers    7,807,170,170 RWF
+  2026-09-11    666,847 transfers    7,746,125,100 RWF
+  2026-09-12    666,936 transfers    7,783,593,400 RWF
+  2026-09-13    666,937 transfers    7,800,995,510 RWF
+  2026-09-14    666,997 transfers    7,856,644,775 RWF
+  2026-09-15    666,996 transfers    7,859,428,355 RWF
+  2026-09-16    666,787 transfers    7,683,087,200 RWF
+  2026-09-17    666,757 transfers    7,699,710,100 RWF
+  2026-09-18    666,786 transfers    7,677,843,700 RWF
+  2026-09-19    666,757 transfers    7,665,841,400 RWF
+  2026-09-20    666,757 transfers    7,663,404,900 RWF
+  2026-09-21    666,726 transfers    7,696,315,800 RWF
+  2026-09-22    666,727 transfers    7,703,220,100 RWF
+  2026-09-23    666,697 transfers    7,697,325,900 RWF
+  2026-09-24    666,726 transfers    7,668,636,000 RWF
+  2026-09-25    666,697 transfers    7,677,231,000 RWF
+  2026-09-26    666,697 transfers    7,671,715,700 RWF
+  2026-09-27    666,696 transfers    7,692,655,900 RWF
+  2026-09-28    666,667 transfers    7,676,184,700 RWF
+  2026-09-29    666,667 transfers    7,668,892,500 RWF
+  2026-09-30    666,666 transfers    7,684,945,400 RWF
+
+Q3 shared devices with overlapping periods
+  A account 998: 4 rows
+      other=  8917 device=228001 handset         overlap days [0,29]
+      other= 16836 device=228001 handset         overlap days [0,29]
+      other= 24755 device=228001 handset         overlap days [0,29]
+      other=220998 device=   998 handset         overlap days [0,29]
+  B account 147228: 9 rows
+      other=147226 device=147226 handset         overlap days [0,29]
+      other=147227 device=147226 handset         overlap days [0,29]
+      other=147229 device=147226 handset         overlap days [0,29]
+      other=147230 device=147226 handset         overlap days [0,29]
+      other=155147 device=228018 handset         overlap days [0,29]
+      other=163066 device=228018 handset         overlap days [0,29]
+      other=170985 device=228018 handset         overlap days [0,29]
+      other=178904 device=228018 handset         overlap days [0,29]
+      other=186823 device=228018 handset         overlap days [0,29]
+  C account 206978: 9 rows
+      other=  6573 device=228043 handset         overlap days [0,29]
+      other=206976 device=206976 handset         overlap days [11,29]
+      other=206977 device=206976 handset         overlap days [0,29]
+      other=206979 device=206976 handset         overlap days [0,29]
+      other=206980 device=206976 handset         overlap days [0,29]
+      other=214897 device=228043 handset         overlap days [0,29]
+      other=222816 device=228043 handset         overlap days [0,29]
+      other=230735 device=228043 handset         overlap days [0,29]
+      other=238654 device=228043 handset         overlap days [0,29]
+  D account 237998: 4 rows
+      other=  5917 device=228301 handset         overlap days [0,29]
+      other= 13836 device=228301 handset         overlap days [0,29]
+      other= 17998 device= 17998 handset         overlap days [0,29]
+      other= 21755 device=228301 handset         overlap days [0,29]
+  E account 144228: 9 rows
+      other=144226 device=144226 handset         overlap days [0,29]
+      other=144227 device=144226 handset         overlap days [0,29]
+      other=144229 device=144226 handset         overlap days [0,29]
+      other=144230 device=144226 handset         overlap days [0,29]
+      other=152147 device=228318 handset         overlap days [0,29]
+      other=160066 device=228318 handset         overlap days [0,29]
+      other=167985 device=228318 handset         overlap days [0,29]
+      other=175904 device=228318 handset         overlap days [0,29]
+      other=183823 device=228318 handset         overlap days [0,29]
+  F account 203978: 9 rows
+      other=  3573 device=228343 handset         overlap days [0,29]
+      other=203976 device=203976 handset         overlap days [11,29]
+      other=203977 device=203976 handset         overlap days [0,29]
+      other=203979 device=203976 handset         overlap days [0,29]
+      other=203980 device=203976 handset         overlap days [0,29]
+      other=211897 device=228343 handset         overlap days [0,29]
+      other=219816 device=228343 handset         overlap days [0,29]
+      other=227735 device=228343 handset         overlap days [0,29]
+      other=235654 device=228343 handset         overlap days [0,29]
+
+Q4 distinct accounts reached through OWNS/USED_DEVICE, by owner region
+  A: d4=10  d6=43  d8=175  d10=187
+  B: d4=46  d6=178  d8=188  d10=228
+  C: d4=146  d6=483  d8=832  d10=1433
+  D: d4=10  d6=44  d8=180  d10=192
+  E: d4=47  d6=183  d8=193  d10=230
+  F: d4=147  d6=488  d8=837  d10=1426
+    A depth  4: Kigali 3, Northern 7
+    A depth  6: Eastern 6, Kigali 9, Northern 13, Southern 9, Western 6
+    A depth  8: Eastern 30, Kigali 33, Northern 37, Southern 45, Western 30
+    A depth 10: Eastern 36, Kigali 35, Northern 37, Southern 45, Western 34
+    B depth  4: Eastern 13, Kigali 6, Northern 7, Southern 9, Western 11
+    B depth  6: Eastern 37, Kigali 30, Northern 35, Southern 45, Western 31
+    B depth  8: Eastern 40, Kigali 33, Northern 35, Southern 47, Western 33
+    B depth 10: Eastern 45, Kigali 41, Northern 46, Southern 57, Western 39
+    C depth  4: Eastern 23, Kigali 24, Northern 29, Southern 43, Western 27
+    C depth  6: Eastern 82, Kigali 90, Northern 97, Southern 121, Western 93
+    C depth  8: Eastern 151, Kigali 172, Northern 167, Southern 186, Western 156
+    C depth 10: Eastern 278, Kigali 293, Northern 295, Southern 294, Western 273
+    D depth  4: Eastern 2, Northern 1, Western 7
+    D depth  6: Eastern 8, Kigali 10, Northern 7, Southern 6, Western 13
+    D depth  8: Eastern 32, Kigali 50, Northern 31, Southern 30, Western 37
+    D depth 10: Eastern 34, Kigali 50, Northern 37, Southern 34, Western 37
+    E depth  4: Eastern 6, Kigali 10, Northern 13, Southern 11, Western 7
+    E depth  6: Eastern 30, Kigali 50, Northern 37, Southern 31, Western 35
+    E depth  8: Eastern 33, Kigali 52, Northern 40, Southern 33, Western 35
+    E depth 10: Eastern 40, Kigali 62, Northern 45, Southern 39, Western 44
+    F depth  4: Eastern 25, Kigali 44, Northern 29, Southern 27, Western 22
+    F depth  6: Eastern 93, Kigali 125, Northern 92, Southern 96, Western 82
+    F depth  8: Eastern 161, Kigali 190, Northern 164, Southern 174, Western 148
+    F depth 10: Eastern 278, Kigali 302, Northern 295, Southern 288, Western 263
+
+Q5 rapid onward chains (3 transfers, 4 accounts)
+  A account 998: 1 rows  [(20000001, 20000002, 20000003, 24755)]
+  B account 147228: 1 rows  [(20000092, 20000093, 20000094, 170985)]
+  C account 206978: 1 rows  [(20000229, 20000230, 20000231, 230735)]
+  D account 237998: 0 rows  []
+  E account 144228: 0 rows  []
+  F account 203978: 0 rows  []
+
+Q6 circular sequences
+  A account 998: 1 rows  [((20000001, 20000002, 20000003, 20000004), 4)]
+  B account 147228: 0 rows  []
+  C account 206978: 1 rows  [((20000229, 20000230, 20000231, 20000232, 20000233, 20000234), 6)]
+  D account 237998: 0 rows  []
+  E account 144228: 0 rows  []
+  F account 203978: 0 rows  []
+
+Q7 fewest directed person-to-person transfers to the destination
+  A 998 -> 24755:  bound 4: 3 | bound 6: 3
+  B 147228 -> 186823:  bound 4: no route within bound | bound 6: 5
+  C 206978 -> 6573:  bound 4: no route within bound | bound 6: 5
+  D 237998 -> 21755:  bound 4: 3 | bound 6: 3
+  E 144228 -> 183823:  bound 4: no route within bound | bound 6: 5
+  F 203978 -> 3573:  bound 4: no route within bound | bound 6: 5
+
+Cases run: 61   errors: 0 
+
+Q7 supporting paths (pg) - verified for IDs, direction, roles, events and length
+  A bound 4: length 3  accounts [998, 8917, 16836, 24755]  transfers [20000001, 20000002, 20000003]  valid=True
+  A bound 6: length 3  accounts [998, 8917, 16836, 24755]  transfers [20000001, 20000002, 20000003]  valid=True
+  B bound 6: length 5  accounts [147228, 147793, 147197, 148101, 178904, 186823]  transfers [4666377, 5984599, 6176316, 8125262, 20000096]  valid=True
+  C bound 6: length 5  accounts [206978, 214897, 222816, 230735, 238654, 6573]  transfers [20000229, 20000230, 20000231, 20000232, 20000233]  valid=True
+  D bound 4: length 3  accounts [237998, 5917, 13836, 21755]  transfers [20001651, 20001652, 20001653]  valid=True
+  D bound 6: length 3  accounts [237998, 5917, 13836, 21755]  transfers [20001651, 20001652, 20001653]  valid=True
+  E bound 6: length 5  accounts [144228, 152147, 160066, 167985, 175904, 183823]  transfers [20001742, 20001743, 20001744, 20001745, 20001746]  valid=True
+  F bound 6: length 5  accounts [203978, 211897, 219816, 227735, 235654, 3573]  transfers [20001879, 20001880, 20001881, 20001882, 20001883]  valid=True
+
+---------------- examples (pg) ----------------
+Q4 supporting path A (998 -> 24755): [(['Account 998', 'Device 228001', 'Account 24755'], 2)]
+Q5 example from set A (account 998), transfer ids [20000001, 20000002, 20000003]:
+    t20000001  998 (person) -> 8917 (person)  2026-09-06 10:00:00 CAT  200,000 RWF
+    t20000002  8917 (person) -> 16836 (person)  2026-09-06 10:00:40 CAT  196,000 RWF
+    t20000003  16836 (person) -> 24755 (person)  2026-09-06 10:01:20 CAT  192,080 RWF
+Q6 example from set A (account 998), transfer ids [20000001, 20000002, 20000003, 20000004]:
+    t20000001  998 (person) -> 8917 (person)  2026-09-06 10:00:00 CAT  200,000 RWF
+    t20000002  8917 (person) -> 16836 (person)  2026-09-06 10:00:40 CAT  196,000 RWF
+    t20000003  16836 (person) -> 24755 (person)  2026-09-06 10:01:20 CAT  192,080 RWF
+    t20000004  24755 (person) -> 998 (person)  2026-09-06 10:02:00 CAT  188,238 RWF
+Charts saved in /home/claude/mobile_money_project/results/plots
