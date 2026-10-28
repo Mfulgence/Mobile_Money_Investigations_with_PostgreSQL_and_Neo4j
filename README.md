@@ -9,8 +9,7 @@ answers Q1–Q7 with parameterised SQL/Cypher pairs, checks that both engines ag
 61 cases, times them, tries one SQL improvement, runs a concurrent load test and produces
 the evidence used in the report.
 
-> First time? Follow **[BABY_STEPS.md](BABY_STEPS.md)** — it explains every command, what you
-> should see, and which screenshot to take. The report draft is in **[report/REPORT.md](report/REPORT.md)**.
+> The final report is **[report/Mobile_Money_Report_Group17.pdf](report/Mobile_Money_Report_Group17.pdf)**.
 
 ## Repository layout
 
